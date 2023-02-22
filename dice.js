@@ -53,7 +53,7 @@ btnroll.addEventListener('click',function(){
     dicemove.classList.remove("hidden");
     dicemove.src = "dice-" + dicechange + ".png";
     
-    if(dicechange!==1&&dicechange!==6)
+    if(dicechange!==1)
     {
         currentScore+=dicechange;
         // currentp0.textContent=currentScore;
@@ -70,7 +70,7 @@ btnhold.addEventListener('click',function(){
     {
     score[activeplayer]+=currentScore;
     document.getElementById("score-"+activeplayer).textContent=score[activeplayer];
-    if(score[activeplayer]>=30)
+    if(score[activeplayer]>=50)
     {
         playing=false;
         dicemove.classList.add("hidden");
