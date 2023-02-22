@@ -138,7 +138,7 @@ body{
         width:50%;
         background-color: pink;
         margin-right: 10%;
-        margin-top:-122%;   
+        margin-top:-128%;   
         box-shadow:0px  0px 2px 3px rgb(206, 254, 195),
     inset 0px 0px  rgb(200, 255, 190),
     15px -15px  rgb(181, 255, 186),
@@ -272,8 +272,8 @@ position:absolute;
         position:absolute;
         margin-top: -95%;
         margin-left:45%;
-        height:170px;
-        width:170px;
+        height:180px;
+        width:180px;
     }
     
 }
