@@ -1,0 +1,353 @@
+body{
+    background:linear-gradient( pink,rgb(255, 89, 89),hotpink);
+}
+.box1
+{
+    border:2px solid black;
+    display: flex;
+    height:60.7%;
+    width:35%;
+    background-color: pink;
+    margin-left: 15%;
+    margin-top:6%;
+    /* inset:35px; */
+    border-radius: 50px;
+    box-shadow:3px  3px rgb(206, 254, 195),
+    inset 0px 0px  rgb(200, 255, 190),
+    -15px -15px  rgb(181, 255, 186),
+    inset -1px -1px rgb(206, 255, 138);
+        
+
+}
+@media screen and (min-width:600px)and (max-width:1200px)
+{
+    .box1
+    {
+        border:2px solid red;
+        display: flex;
+        height:70%;
+        width:50%;
+        background-color: pink;
+        margin-left: 0%;
+        margin-top:10%;    
+        box-shadow:3px  3px rgb(206, 254, 195),
+        inset 0px 0px  rgb(200, 255, 190),
+        -15px -15px  rgb(181, 255, 186),
+        inset -1px -1px rgb(206, 255, 138);
+      
+    }
+}
+.name{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+@media screen and (min-width:600px)and (max-width:1200px)
+{
+    .name{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 40px;
+    }   
+    
+}
+#name-0{
+    margin-left: 42%;
+    text-align: center;
+   
+}
+@media screen and (min-width:600px)and (max-width:1200px)
+{
+    #name-0{
+        margin-left: 32%;
+        margin-top:06%;
+    }   
+}
+.score{
+    font-size: 80px;
+    margin-left:-69px;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif 
+}
+@media screen and (min-width:600px)and (max-width:1200px)
+{
+    .score{
+        font-size: 140px;
+        margin-left:-90px;
+        margin-top: 30%;
+        font-weight: bold;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif 
+    }   
+}
+
+.current-1
+{
+    
+    margin-top:47%;
+    height:195px;
+    width:233px;
+    margin-left: -28.9%;
+    background-color:hotpink;
+}
+@media screen and (min-width:600px)and (max-width:1200px)
+{
+    .current-1
+    {
+        
+        margin-top:157%;
+        height:195px;
+        width:233px;
+        margin-left: -35%;
+        background-color:hotpink;
+    }   
+}
+.current-label1{
+    font-size:40px;
+    margin-top:3%;
+    margin-left: 28%;
+
+}
+.current-score1
+{
+    font-size: 40px;
+    margin-left: 43%;
+
+}
+.box2{
+   
+    border:2px solid black;
+    display: flex;
+    height:60%;
+    position:absolute;
+    width:35%;
+    margin-top:-29.3%;
+    background-color: pink;
+    border-radius: 50px;
+    margin-left: 53%;
+    box-shadow:0px  0px 2px 3px rgb(206, 254, 195),
+    inset 0px 0px  rgb(200, 255, 190),
+    15px -15px  rgb(181, 255, 186),
+    inset -1px 1px rgb(206, 255, 138);
+  
+}
+@media screen and (min-width:600px)and (max-width:1200px)
+{
+    .box2
+    {
+        border:2px solid red;
+        display: flex;
+        height:70%;
+        width:50%;
+        background-color: pink;
+        margin-right: 10%;
+        margin-top:-122%;   
+        box-shadow:0px  0px 2px 3px rgb(206, 254, 195),
+    inset 0px 0px  rgb(200, 255, 190),
+    15px -15px  rgb(181, 255, 186),
+    inset -1px 1px rgb(206, 255, 138);
+   
+    }
+}
+#score-1{
+    margin-left:-65px;
+}
+@media screen and (min-width:600px)and (max-width:1200px)
+{
+    #score-1{
+        margin-left:-90px;
+    }   
+}
+.current-2
+{
+    margin-top:47%;
+    height:195px;
+    width:233px;
+    margin-left: -27.8%;
+    background-color:hotpink;
+}
+@media screen and (min-width:600px)and (max-width:1200px)
+{
+    .current-2
+    {
+        
+        margin-top:157%;
+        height:195px;
+        width:233px;
+        margin-left: -35%;
+        background-color:hotpink;
+    }   
+}
+.current-label2{
+    font-size:40px;
+    margin-top:3%;
+    margin-left: 28%;
+
+}
+.current-score2
+{
+    font-size: 40px;
+    margin-left: 43%;
+
+}
+#name-1{
+    margin-left: 40%;
+    text-align: center;
+   
+}
+.btn{
+    font-size: 30px;
+    font-weight:bold;
+    font-variant:small-caps;
+    background-color:azure;
+}
+@media screen and (min-width:600px)and (max-width:1200px)
+{
+    .btn{
+        font-size: 37px;
+        font-weight:bold;
+        font-variant:small-caps;
+        background-color:azure;
+    }   
+}
+.btn-new{
+margin-left:44%;
+margin-top:-28%;
+position:absolute;
+}
+@media screen and (min-width:600px)and (max-width:1200px)
+{
+    .btn-new{
+        margin-left:40%;
+        margin-top:-118%;
+        position:absolute;
+        }   
+}
+
+.btn-roll{
+    margin-left:44%;
+    margin-top:-12%;
+    position:absolute;
+    
+}
+@media screen and (min-width:600px)and (max-width:1200px)
+{
+    .btn-roll{
+        margin-left:40%;
+        margin-top:-62%;
+        position:absolute;
+        
+    }   
+}
+.btn-hold{
+    margin-left:46%;
+    margin-top:-6%;
+    position:absolute;
+    
+}
+@media screen and (min-width:600px)and (max-width:1200px)
+{
+    .btn-hold{
+        margin-left:43%;
+        margin-top:-50%;
+        /* position:absolute; */
+        
+    }   
+}
+.hidden{
+    display:none;
+}
+.player-winner{
+    background-color:lightgreen;
+
+}
+.dice{
+    position:absolute;
+    margin-top: -22%;
+    margin-left:47%;
+
+    height:120px;
+    width:120px;
+}
+@media screen and (min-width:600px)and (max-width:1200px)
+{
+    .dice{
+        position:absolute;
+        margin-top: -95%;
+        margin-left:45%;
+        height:170px;
+        width:170px;
+    }
+    
+}
+.player-active{
+    background-color: hotpink;
+}
+
+
+
+.show-modal{
+    font-size:15px;
+    font-weight: bold;
+    height:60px;
+    padding:15px;
+    text-indent: 10%;
+    margin-left:6%;
+    color:#444;
+    border-radius: 25%;
+    cursor: pointer;
+    gap: 200px;
+    min-width: 150px;
+  
+}
+
+.close-modal{
+    position:absolute;
+    top:3%;
+    right:10%;
+    font-size:30px;
+    color:black;
+    cursor:pointer;
+    background-color:aliceblue;
+}
+h1{
+    font-size: 25px;
+    top:8%;
+
+}
+p{
+    font-size:28px;
+}
+.modal{
+    position:absolute;
+    top:6%;
+    left:25%;
+
+    /* transform: translate(-50%,-50%); */
+    width:60%;
+    background-color:white;
+    animation:fade 2s;
+    border-radius: 10%;
+
+}
+.hidden1{
+    display:none;
+}
+@keyframes fade{
+    from{opacity: 0.5;
+    }
+    to{
+        opacity: 1;
+    }
+}
+@media (min-width: 600px) and (max-width: 1279px){
+    .modal{
+    position:absolute;
+    top:10%;
+    left:18%;
+
+    /* transform: translate(-50%,-50%); */
+    width:75%;
+    background-color:white;
+    animation:fade 1s;
+    border-radius: 5%;
+
+}   
+}
