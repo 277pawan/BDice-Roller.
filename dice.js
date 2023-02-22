@@ -42,8 +42,8 @@ const switchplayer=function(){
     document.getElementById('current-'+activeplayer).textContent=0;
       activeplayer=activeplayer=== 0 ? 1 : 0;
       currentScore=0;
-       player0.classList.toggle('player-active');
-       player1.classList.toggle('player-active');
+//        player0.classList.toggle('player-active');
+//        player1.classList.toggle('player-active');
 
 };
 btnroll.addEventListener('click',function(){
