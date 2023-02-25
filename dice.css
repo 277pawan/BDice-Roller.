@@ -3,7 +3,7 @@ body{
 }
 .box1
 {
-    border:2px solid black;
+    /* border: solid black; */
     display: flex;
     height:60.7%;
     width:35%;
@@ -12,11 +12,8 @@ body{
     margin-top:6%;
     /* inset:35px; */
     border-radius: 50px;
-    box-shadow:3px  3px rgb(206, 254, 195),
-    inset 0px 0px  rgb(200, 255, 190),
-    -15px -15px  rgb(181, 255, 186),
-    inset -1px -1px rgb(206, 255, 138);
-        
+   box-shadow:inset -5px -5px 0px black,
+   inset 5px 5px 0px white;        
 
 }
 @media screen and (min-width:600px)and (max-width:1200px)
@@ -30,11 +27,9 @@ body{
         background-color: pink;
         margin-left: 0%;
         margin-top:10%;    
-        box-shadow:3px  3px rgb(206, 254, 195),
-        inset 0px 0px  rgb(200, 255, 190),
-        -15px -15px  rgb(181, 255, 186),
-        inset -1px -1px rgb(206, 255, 138);
-      
+        box-shadow:inset -5px -5px 0px black,
+        inset 5px 5px 0px white;        
+           
     }
 }
 .name{
@@ -86,6 +81,10 @@ body{
     width:233px;
     margin-left: -28.9%;
     background-color:hotpink;
+border-radius:30px;
+    box-shadow:inset -5px -5px 0px black,
+    inset 5px 5px 0px white;        
+ 
 }
 @media screen and (min-width:600px)and (max-width:1200px)
 {
@@ -96,8 +95,10 @@ body{
         height:195px;
         width:233px;
         margin-left: -35%;
-        background-color:hotpink;
-    }   
+        border-radius:30px;
+        box-shadow:inset -5px -5px 0px black,
+        inset 5px 5px 0px white;        
+        }   
 }
 .current-label1{
     font-size:40px;
@@ -122,11 +123,9 @@ body{
     background-color: pink;
     border-radius: 50px;
     margin-left: 53%;
-    box-shadow:0px  0px 2px 3px rgb(206, 254, 195),
-    inset 0px 0px  rgb(200, 255, 190),
-    15px -15px  rgb(181, 255, 186),
-    inset -1px 1px rgb(206, 255, 138);
-  
+    box-shadow:inset -5px -5px 0px black,
+    inset 5px 5px 0px white;        
+   
 }
 @media screen and (min-width:600px)and (max-width:1200px)
 {
@@ -138,12 +137,10 @@ body{
         width:50%;
         background-color: pink;
         margin-right: 10%;
-        margin-top:-131%;   
-        box-shadow:0px  0px 2px 3px rgb(206, 254, 195),
-    inset 0px 0px  rgb(200, 255, 190),
-    15px -15px  rgb(181, 255, 186),
-    inset -1px 1px rgb(206, 255, 138);
-   
+        margin-top:-128%;   
+        box-shadow:inset -5px -5px 0px black,
+        inset 5px 5px 0px white;        
+        
     }
 }
 #score-1{
@@ -161,7 +158,10 @@ body{
     height:195px;
     width:233px;
     margin-left: -27.8%;
-    background-color:hotpink;
+    background-color: hotpink;
+    border-radius:30px;
+    box-shadow:inset -5px -5px 0px black,
+    inset 5px 5px 0px white;        
 }
 @media screen and (min-width:600px)and (max-width:1200px)
 {
@@ -172,8 +172,11 @@ body{
         height:195px;
         width:233px;
         margin-left: -35%;
-        background-color:hotpink;
-    }   
+        border-radius:30px;
+background-color: hotpink;
+        box-shadow:inset -5px -5px 0px black,
+        inset 5px 5px 0px white;        
+        }   
 }
 .current-label2{
     font-size:40px;
@@ -272,8 +275,8 @@ position:absolute;
         position:absolute;
         margin-top: -95%;
         margin-left:45%;
-        height:190px;
-        width:190px;
+        height:170px;
+        width:170px;
     }
     
 }
